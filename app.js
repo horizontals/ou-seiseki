@@ -501,7 +501,7 @@ const GAMES = [
   { id: "scratch", icon: "🪙", name: "スクラッチ削り", desc: "コインで削って結果を確認" },
   { id: "drawer",  icon: "🗄️", name: "引き出しオープン", desc: "取っ手を引いて開けよう" },
   { id: "shoot",   icon: "🎯", name: "射的で穴あけ", desc: "撃ち抜いて結果を暴こう" },
-  { id: "gacha",   icon: "🎰", name: "ガチャガチャ", desc: "レバーを回してカプセルGET" },
+  { id: "gacha",   icon: "💊", name: "ガチャガチャ", desc: "レバーを回してカプセルGET" },
   { id: "kuji",    icon: "🎋", name: "くじ引き", desc: "気になる一枚を選んでね" },
 ];
 
