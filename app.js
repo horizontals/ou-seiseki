@@ -743,7 +743,7 @@ function renderShootGame(area, course, onComplete){
 
   let shots = 0;
   let done = false;
-  const NEEDED_SHOTS = 11;
+  const NEEDED_SHOTS = matchMedia("(pointer: coarse)").matches ? 20 : 10;
 
   function shoot(clientX, clientY){
     if (done) return;
