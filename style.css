@@ -685,3 +685,5 @@ button{ font-family: inherit; }
 
 .sp-only{ display:none; }
 @media (max-width:480px){ .sp-only{ display:inline; } }
+
+#screen-upload > div > div.upload-note > img{width: min(400px, 100%);}
