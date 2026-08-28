@@ -589,7 +589,7 @@ button{ font-family: inherit; }
 .kuji-slip:nth-child(5){ transform: rotate(16deg); }
 .kuji-slip:hover{ filter:brightness(1.05); }
 .kuji-slip::before{
-  content:"御籤";
+  content:"おみくじ";
   writing-mode: vertical-rl;
   position:absolute; top:8px; left:50%; transform:translateX(-50%);
   font-size:13px; font-weight:800; color:#a33;
