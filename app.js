@@ -339,7 +339,7 @@ function renderCourseList(){
         <div class="row-title">${escapeHtml(course.name)}</div>
         <div class="row-meta">
           <span>👤 ${escapeHtml(course.teacher)}</span>
-          <span>🕐 ${escapeHtml(course.code)}</span>
+          <span>ID: ${escapeHtml(course.code)}</span>
         </div>
         ${badges.length ? `<div class="row-badges">${badges.join("")}</div>` : ""}
       </div>
